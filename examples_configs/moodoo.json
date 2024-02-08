@@ -1,0 +1,25 @@
+{
+  "driver": "moodoo",
+  "run_mode": "single",
+  "input_data_type": "file",
+  "session_id": "--",
+  "session_keyword": "--",
+  "phase_id": 2,
+  // Data fetch configs
+  "session_data_file": "cache/moodoo/PROCESSED_DATASET_2018_2019.csv",
+  "session_phase_file": "cache/moodoo/PHASES_2018_2019.csv",
+  "classroom_config_file": "cache/moodoo/info.ini",
+  "moving_trackers_config_file": "cache/moodoo/TRACKERS_2018_2019.csv",
+  "fixed_trackers_config_file": "cache/moodoo/FIXED_TRACKERS_2018_2019.csv",
+  // Output write configs
+  "output_prefix": "single_session_output",
+  "output_server_name": "analytics_2024",
+  "output_server_user": "ANALYTICS_USERNAME",
+  "output_server_password": "ANALYTICS_PASSWORD",
+  "output_server_url": "ANALYTICS_URL",
+  // cache and run mode config
+  "debug_mode": True,
+  "cache_mode": True,
+  "cache_update": True,
+  "cache_dir": "cache",
+}

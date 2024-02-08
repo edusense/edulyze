@@ -1,0 +1,26 @@
+{
+  "driver": "edusense",
+  "run_mode": "single",
+  "input_data_type": "graphql",
+  "video_session_id": "619e3140e81eb735aec115e8",
+  "audio_session_id": "619e3140e81eb735aec115e8",
+  "session_id": "619e3140e81eb735aec115e8",
+  "session_keyword": "xxx_xxxxx_xxx_xxxx_xxxxxxxxxxxx",
+  // Data fetch configs
+  "server_name": "summer_backfill",
+  "server_user": "EDUSENSE_USERNAME",
+  "server_password": "EDUSENSE_PASSWORD",
+  "server_backend_url": "EDUSENSE_URL",
+  "audio_server_name": "audioOnly",
+  // Output write configs
+  "output_prefix": "single_session_output",
+  "output_server_name": "analytics_2024",
+  "output_server_user": "EDUSENSE_ANALYTICS_USERNAME",
+  "output_server_password": "EDUSENSE_ANALYTICS_PASSWORD",
+  "output_server_url": "EDUSENSE_ANALYTICS_URL",
+  // cache and run mode config
+  "debug_mode": true,
+  "cache_mode": true,
+  "cache_update": true,
+  "cache_dir": "cache",
+}

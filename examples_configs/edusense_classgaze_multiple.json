@@ -1,0 +1,31 @@
+{
+    "driver": "edusense",
+    "run_mode": "multiple",
+    "input_data_type": "graphql",
+    "session_list_filepath": "examples/sample_session_info.cfg",
+    "session_id": "--",
+    "session_keyword": "--",
+
+   // Data fetch configs
+    "server_name": "spring_backfill",
+    "server_user": "EDUSENSE_USERNAME",
+    "server_password": "EDUSENSE_PASSWORD",
+    "server_backend_url": "EDUSENSE_URL",
+    "audio_server_name": "videoOnly",
+   // Output write configs
+    "output_prefix": "single_session_output",
+    "output_server_name": "annotations_edusense",
+    "output_server_user": "EDUSENSE_ANALYTICS_USERNAME",
+    "output_server_password": "EDUSENSE_ANALYTICS_PASSWORD",
+    "output_server_url": "EDUSENSE_ANALYTICS_URL",
+
+   // Logging config
+    "log_dir":"cache/logs/",
+    "log_file_prefix":"annotations_edusense",
+
+   // cache and run mode config
+    "debug_mode": False,
+    "cache_mode": True,
+    "cache_update": False,
+    "cache_dir": "cache",
+}
