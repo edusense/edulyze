@@ -1,5 +1,27 @@
-# Edulyze
-A analytics system that combines data from various classroom sensing systems to generate analytical insights for relevant pedagogical questions and presents a unified schema to structure processed classroom data.
+# Edulyze: Learning Analytics for Real-World Classrooms at Scale
+An analytics system that combines data from various classroom sensing systems to generate analytical insights for relevant pedagogical questions and presents a unified schema to structure processed classroom data.
+
+[[paper (Journal of Learning Analytics 2024)](https://www.learning-analytics.info/index.php/JLA/article/view/8367)]
+
+**Abstract:**
+Classroom sensing systems can capture data on teacher-student behaviours and interactions at a scale far greater than human observers can. These data, translated to multi-modal analytics, can provide meaningful insights to educational stakeholders. However, complex data can be difficult to make sense of. In addition, analyses done on these data are often limited by the organization of the underlying sensing system, and translating sensing data into meaningful insights often requires custom analyses across different modalities. We present Edulyze, an analytics engine that processes complex, multi-modal sensing data and translates them into a unified schema that is agnostic to the underlying sensing system or classroom configuration. We evaluate Edulyze’s performance by integrating three sensing systems (Edusense, ClassGaze, and Moodoo) and then present data analyses of five case studies of relevant pedagogical research questions across these sensing systems. We demonstrate how Edulyze’s flexibility and customizability allow us to answer a broad range of research questions made possible by Edulyze’s translation of a breadth of raw sensing data from different sensing systems into relevant classroom analytics. 
+
+## Reference
+
+```bibtex
+@article{Patidar_Ngoon_Vogety_Behari_Harrison_Zimmerman_Ogan_Agarwal_2024,
+	title        = {Edulyze: Learning Analytics for Real-World Classrooms at Scale},
+	author       = {Patidar, Prasoon and Ngoon, Tricia and Vogety, Neeharika and Behari, Nikhil and Harrison, Chris and Zimmerman, John and Ogan, Amy and Agarwal, Yuvraj},
+	year         = 2024,
+	month        = {Aug.},
+	journal      = {Journal of Learning Analytics},
+	volume       = 11,
+	number       = 2,
+	pages        = {297--313},
+	doi          = {10.18608/jla.2024.8367},
+	url          = {https://www.learning-analytics.info/index.php/JLA/article/view/8367},
+}
+```
 
 ## Installation and Running the Edulyze System
 1. Clone the repository, and go to main directory.
@@ -374,5 +396,9 @@ The schema is generated using post analytics output automatically.
 ## Additional Information
 
 For more information, please refer to the Edulyze paper. If you have any questions, please contact the authors of the paper.
+
+
+
+
 
 
