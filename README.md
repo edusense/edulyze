@@ -23,7 +23,7 @@ Classroom sensing systems can capture data on teacher-student behaviours and int
 }
 ```
 
-## Installation and Running the Edulyze System
+# Installation and Running the Edulyze System
 1. Clone the repository, and go to main directory.
 2. Create a conda environment using `conda create -n edulyze python=3.9`
 3. Activate the environment using `conda activate edulyze`
